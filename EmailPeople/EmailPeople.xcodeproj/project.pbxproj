@@ -13,6 +13,7 @@
 		9DA7BCF5257D78C200BC81E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCF3257D78C200BC81E2 /* Main.storyboard */; };
 		9DA7BCF7257D78C600BC81E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCF6257D78C600BC81E2 /* Assets.xcassets */; };
 		9DA7BCFA257D78C600BC81E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCF8257D78C600BC81E2 /* LaunchScreen.storyboard */; };
+		9DA7BD0A257DA3A900BC81E2 /* EmaiPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BD09257DA3A900BC81E2 /* EmaiPeople.swift */; };
 		D07E23ACFB27BF2836000333 /* Pods_EmailPeople.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EEA0875736D17183A1562A /* Pods_EmailPeople.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		9DA7BCF6257D78C600BC81E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA7BCF9257D78C600BC81E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA7BCFB257D78C600BC81E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA7BD09257DA3A900BC81E2 /* EmaiPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmaiPeople.swift; sourceTree = "<group>"; };
 		A3EEA0875736D17183A1562A /* Pods_EmailPeople.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPeople.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8398964BE9F72DA877C3046 /* Pods-EmailPeople.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPeople.debug.xcconfig"; path = "Target Support Files/Pods-EmailPeople/Pods-EmailPeople.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 		9DA7BD04257DA22D00BC81E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DA7BD09257DA3A900BC81E2 /* EmaiPeople.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA7BD0A257DA3A900BC81E2 /* EmaiPeople.swift in Sources */,
 				9DA7BCF2257D78C200BC81E2 /* ViewController.swift in Sources */,
 				9DA7BCEE257D78C200BC81E2 /* AppDelegate.swift in Sources */,
 				9DA7BCF0257D78C200BC81E2 /* SceneDelegate.swift in Sources */,
