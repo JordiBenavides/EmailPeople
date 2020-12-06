@@ -1,0 +1,6 @@
+framework module Pods_EmailPeople {
+  umbrella header "Pods-EmailPeople-umbrella.h"
+
+  export *
+  module * { export * }
+}
