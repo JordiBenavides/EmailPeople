@@ -10,10 +10,10 @@ import Foundation
 
 struct ResponseAPI: Codable {
     
-    let data:[Data]
+    let data:[EmailPeople]
 }
 
-struct Data: Codable {
+struct EmailPeople: Codable {
     
     let id: Int
     let name: String
