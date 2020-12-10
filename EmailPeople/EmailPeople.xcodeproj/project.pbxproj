@@ -16,6 +16,8 @@
 		9DA7BD0A257DA3A900BC81E2 /* EmaiPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BD09257DA3A900BC81E2 /* EmaiPeople.swift */; };
 		9DA7BD0C257DA61300BC81E2 /* ViewModelEmailPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BD0B257DA61300BC81E2 /* ViewModelEmailPeople.swift */; };
 		9DA7BD0E257DA66700BC81E2 /* EmailPeopleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BD0D257DA66700BC81E2 /* EmailPeopleAPI.swift */; };
+		9DA7BD1225823E6500BC81E2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BD1025823E6500BC81E2 /* CustomTableViewCell.swift */; };
+		9DA7BD1325823E6500BC81E2 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BD1125823E6500BC81E2 /* CustomTableViewCell.xib */; };
 		D07E23ACFB27BF2836000333 /* Pods_EmailPeople.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EEA0875736D17183A1562A /* Pods_EmailPeople.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		9DA7BD09257DA3A900BC81E2 /* EmaiPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmaiPeople.swift; sourceTree = "<group>"; };
 		9DA7BD0B257DA61300BC81E2 /* ViewModelEmailPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelEmailPeople.swift; sourceTree = "<group>"; };
 		9DA7BD0D257DA66700BC81E2 /* EmailPeopleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPeopleAPI.swift; sourceTree = "<group>"; };
+		9DA7BD1025823E6500BC81E2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9DA7BD1125823E6500BC81E2 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		A3EEA0875736D17183A1562A /* Pods_EmailPeople.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPeople.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8398964BE9F72DA877C3046 /* Pods-EmailPeople.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPeople.debug.xcconfig"; path = "Target Support Files/Pods-EmailPeople/Pods-EmailPeople.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA7BCF1257D78C200BC81E2 /* ViewController.swift */,
+				9DA7BD0F25823E2E00BC81E2 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +142,15 @@
 				9DA7BD0D257DA66700BC81E2 /* EmailPeopleAPI.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		9DA7BD0F25823E2E00BC81E2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7BD1025823E6500BC81E2 /* CustomTableViewCell.swift */,
+				9DA7BD1125823E6500BC81E2 /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A60C7E06EF44CB0656CF639C /* Pods */ = {
@@ -218,6 +232,7 @@
 			files = (
 				9DA7BCFA257D78C600BC81E2 /* LaunchScreen.storyboard in Resources */,
 				9DA7BCF7257D78C600BC81E2 /* Assets.xcassets in Resources */,
+				9DA7BD1325823E6500BC81E2 /* CustomTableViewCell.xib in Resources */,
 				9DA7BCF5257D78C200BC81E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +289,7 @@
 				9DA7BD0A257DA3A900BC81E2 /* EmaiPeople.swift in Sources */,
 				9DA7BCF2257D78C200BC81E2 /* ViewController.swift in Sources */,
 				9DA7BCEE257D78C200BC81E2 /* AppDelegate.swift in Sources */,
+				9DA7BD1225823E6500BC81E2 /* CustomTableViewCell.swift in Sources */,
 				9DA7BCF0257D78C200BC81E2 /* SceneDelegate.swift in Sources */,
 				9DA7BD0E257DA66700BC81E2 /* EmailPeopleAPI.swift in Sources */,
 				9DA7BD0C257DA61300BC81E2 /* ViewModelEmailPeople.swift in Sources */,
