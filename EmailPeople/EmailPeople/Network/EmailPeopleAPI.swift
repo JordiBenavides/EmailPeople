@@ -12,7 +12,7 @@ import Moya
 enum EmailPeopleAPI {
     
     case getEmailPeople
-//    case getCiviById(id: Int)
+    case getEmailById(id: Int)
     
 }
 
@@ -24,8 +24,8 @@ extension EmailPeopleAPI:TargetType,AccessTokenAuthorizable {
         case .getEmailPeople:
             return "users"
             
-//        case .getCiviById(id: let id):
-//            return "civilization/\(id)"
+        case .getEmailById(id: let id):
+            return "users/\(id)"
             
         }
         
@@ -36,8 +36,8 @@ extension EmailPeopleAPI:TargetType,AccessTokenAuthorizable {
         case .getEmailPeople:
             return .get
             
-//        case .getCiviById(id: _):
-//            return .get
+        case .getEmailById(id: _):
+            return .get
             
         }
     }
@@ -47,8 +47,8 @@ extension EmailPeopleAPI:TargetType,AccessTokenAuthorizable {
         case .getEmailPeople:
             return .bearer
             
-//        case .getCiviById(id: _):
-//            return .bearer
+        case .getEmailById(id: _):
+            return .bearer
             
         }
     }
@@ -58,8 +58,8 @@ extension EmailPeopleAPI:TargetType,AccessTokenAuthorizable {
         case .getEmailPeople:
             return .requestPlain
             
-//        case .getCiviById(id: _):
-//            return .requestPlain
+        case .getEmailById(id: _):
+            return .requestPlain
             
         }
     }

@@ -33,7 +33,7 @@ class ViewModelEmailPeople {
             switch result {
             case .success(let response):
                 print("success")
-                let array: [EmailPeople] = try! response.map(ResponseAPI.self).data
+                let array: [EmailPeople] = try! response.map(ResponseAPIArray.self).data
                 self.dataArray = array
             case .failure:
                 print("Error")

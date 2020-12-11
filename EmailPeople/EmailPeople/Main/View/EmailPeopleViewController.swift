@@ -53,6 +53,14 @@ class EmailPeopleViewController: UIViewController, UITableViewDelegate, UITableV
         return cell ?? UITableViewCell()
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(withIdentifier: "OneEmailViewController") as? OneEmailViewController else { return }
+        vc.id = viewModel.dataArray[indexPath.row].id
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 

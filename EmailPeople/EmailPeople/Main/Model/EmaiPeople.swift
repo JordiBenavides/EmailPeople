@@ -8,9 +8,14 @@
 
 import Foundation
 
-struct ResponseAPI: Codable {
+struct ResponseAPIArray: Codable {
     
     let data:[EmailPeople]
+}
+
+struct ResponseAPI: Codable {
+    
+    let data:EmailPeople
 }
 
 struct EmailPeople: Codable {
